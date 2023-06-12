@@ -1,0 +1,124 @@
+/* style.css */
+
+/* Üldine stiil */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Bänneri stiil */
+
+header {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin: 0;
+}
+
+/* Menüüriba stiil */
+
+nav {
+  background-color: #333;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #111;
+}
+
+/* Sisu stiil */
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form button {
+  margin-top: 5px;
+}
+
+form button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Galerii stiil */
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.single_portfolio_text {
+  max-width: 400px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+/* Kontakti stiil */
+
+address p {
+  margin: 10px 0;
+}
+
+#map {
+  height: 300px; /* Kohandage kaardi kõrgust vastavalt vajadusele */
+}
+
+/* Jaluse stiil */
+
+footer {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+  color: #333;
+}
